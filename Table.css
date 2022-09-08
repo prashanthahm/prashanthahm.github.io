@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+      <head>
+          <title>good morning</title>
+          <style>
+            h1,h2{
+                color:brown;
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
+            div{
+                color: green;
+            }
+            .Username {
+                color: blue;
+
+            }
+            #email{
+                 color:crimson;
+
+            }
+
+            tr:hover {
+                color: darkcyan;
+                background-color: darkred;
+            }
+
+            tr{
+                color:deepskyblue
+            }
+        </style>
+         <link rel="stylesheet" href="Table.css">
+       </head>

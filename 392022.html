@@ -1,0 +1,114 @@
+ <!DOCTYPE html>
+<html>
+      <head>
+          <title>gidogfdofpeaypy0apfy00u0</title>
+          <style></style>
+          <script>
+var displaymessage =document.getElementById("message")
+console.log(displaymessage)
+displaymessage.innerHTML="calling display"
+
+// 9/5/22
+
+var email = document.getElementById("email")
+if(email.value.length==""){
+    console.log("please enter email")
+    var emailErrormessage =
+ document.getElementById("emailerrormassage")
+emailErrormessage.innerHTML ="please enter mail id"
+emailErrormessage.style.color = "red"
+// to work this register function should be their it is not in this doc it is in note written
+}
+
+
+// document.forname.fieldname
+
+console.log(document.userregister.gender[0].checked)
+if(
+    document.userregister.gender[0].checked==false &&
+    document.userregister.gender[1].checked==false &&
+    document.userregister.gender[2].checked==false){
+        consolr.log("please select gender")
+        var genderErrorMessage= document.getElementId("genderErrorMessage")
+        genderErrorMessage.innerHTML="Please select gender"
+    }
+
+
+
+          </script>
+
+       </head>
+       <body>
+    <h1>Introduction to web technology</h1>
+    <h2>prashanthagiinjjspaaaaafjpejpejpjp</h2>
+    <div id="message"></div>
+
+    <form>
+        <div>
+            <label>Enter Number1</label>
+            <input type="text" name="num1">
+        </div>
+        <div>
+            <label>Enter Number2</label>
+            <input type="text" name="num2">
+        </div>
+        <button type="button" onclick="addition()">Addition</button>
+
+        <!-- 9/5/22 -->
+
+        <div>
+            <lable>Enter Email</lable>
+            <input type="email" name="email" id="email">
+            <div id="emailerrormassage"></div>
+        </div>
+        <button type="button" onclick="register()">Register</button>
+
+        <form name="userregister">
+            <div><lable>
+                User Name</lable>
+                <input type="text" name="username" id="username">
+                <div id="emailerrormassage"></div>
+
+
+                </div>
+            
+            
+            
+            </form>
+
+            <div>
+                <lable>Select Gender</lable>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Others
+                <div id="genderErrorMessage"></div>
+
+
+            
+                </div>
+        
+        
+    </form>
+
+       </body>
+ </html>      
+
+ <!-- displaying dynamically in javascript,
+    function addition
+
+    Event
+    var=declaration of variable
+    retrive
+    document.
+    console.log = llike sos in java
+    dynaically display
+    innerHTML= property
+    register()=call function example
+
+
+-->
+
+<!-- 5/9/22
+Formm validation
+-->
+
